@@ -6,7 +6,5 @@ def initialize(date, doctor)
     @doctor = doctor
     doctor.add_appointment(self) 
 end
-def self.all 
-  @@all 
-end 
+
 end 
